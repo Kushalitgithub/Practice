@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excuse Generator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <h1>Excuse Generator</h1>
+            <p>"Because Honesty doesnt always get marks"</p>
+        </header>
+
+        <section class="input">
+            <label for="#">Why are you making an excuse?</label><br>
+            <select name="#" id="#">
+
+                <option value="Late Assignment">Late Assignment</option>
+                <option value="Absent in Class">Absent in Class</option>
+                <option value="Missed Exam">Missed Exam</option>
+                <option value="Late Submission">Late Submission</option>
+                <option value="Missed Presentation">Missed Presentation</option>
+
+
+            </select><br><br>
+            <label for="#">Mood of teacher: </label>
+            <select name="#" id="#">
+                <option value="#">Happy</option>
+                <option value="#">Neutral</option>
+                <option value="#">Angry</option>
+            </select><br><br>
+            <label for="#">Believability:</label>
+            <input type="range" min="1" max="10"><br><br>
+
+            <button>Generate Excuse</button>
+        </section>
+
+        <section class="output"><br>
+            <p class="excuse">"Bus nai aayena"</p><br>
+
+            <div class="info">
+                <span>Believability : 5/10</span><br>
+                <span>Reaction : Suspicious</span>
+            </div>
+        </section>
+
+
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
